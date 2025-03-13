@@ -1,6 +1,3 @@
-from docutils.io import Input
-
-from imc import altura
 
 peso = float
 altura = float
@@ -25,9 +22,8 @@ print("Your BMI is: ", imcResult)
 
 if imcResult <= 18.5:
     print('You are Underweight!')
-elif imcResult <= 25 and  imcResult > 18.6:
+elif imcResult <= 25 and  imcResult > 18.5:
     print('You the ideal weight for your health, congrats!')
-    #HÁ OUTRO PROBLEMA NESTA LINHA ONDE POR ALGUM MOTIVO A LÓGICA NÃO ESTÁ FUNCIONANDO CORRETAMENTE. A comparação está errada
 elif imcResult > 25  and  imcResult <= 29.9:
     print('You are slightly overweight... ')
 elif imcResult > 29.9  and  imcResult <= 34.9:
