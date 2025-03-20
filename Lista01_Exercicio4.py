@@ -19,3 +19,11 @@ Media = (Nota1 + Nota2 + Nota3 + Nota4) / 4
 print(f"A media das quatro notas é de: {Media:.1f}")
 print(f"A media ponderada das 4 notas é de: {MediaPonderada2:.2f}")
 
+if Media or MediaPonderada2 >= 7:
+    print("o Aluno está aprovado")
+
+elif Media or MediaPonderada2 >= 4:
+    print("O aluno está de recuperação")
+
+else:
+    print("o Aluno está reprovado")
